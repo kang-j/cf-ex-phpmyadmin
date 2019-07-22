@@ -6,6 +6,4 @@ applications:
   path: .
   buildpack: php_buildpack
   services:
-  - mysql
-  routes:
-  - route: phpmyadmin.cfapps.io
+  - training-db
